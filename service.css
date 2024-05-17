@@ -77,7 +77,7 @@ header{
 }
 
 .backgrounimg{
-    background-image: url(/src/services-bg.jpg);
+    background-image: url(src/services-bg.jpg);
     background-attachment: fixed;
     background-position: center bottom;
     background-repeat: no-repeat;
