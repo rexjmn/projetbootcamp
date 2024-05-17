@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "noto", sans-serif;
+}
+
+ul {
+    list-style: none;
+    text-align: end;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-family: "noto", sans-serif;
+    color: white;
+
+}
+
+.header-containers {
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+
+.navBar-links_logo img {
+    width: 50%;
+}
+
+.navBar-links_logo {
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+nav {
+    width: 600px;
+    height: 100;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 10px;
+
+
+
+
+}
+
+.navBar-links_container {
+    height: 50px;
+}
+
+button {
+    font-family: "noto", sans-serif;
+    font-size: 10px;
+    border-radius: 30px;
+    border: #fb2056;
+    height: 30px;
+    width: 115px;
+    font-weight: bold;
+    color: white;
+    background-color: #fb2056;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    background-color: #a71136;
+}
+
+header {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 70vh;
+
+}
+
+.backgrounimg {
+    background-image: url(./src/project-background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0000009a;
+    background-blend-mode: color;
+
+
+
+}
+.dropdonwMenu{
+    display: none;
+    position: absolute;
+    right:2rem;
+    top: 60px;
+    width: 300px;
+    background-color: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+
+    
+}
+
+
+
+.textAbout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    color: white;
+    font-size: 25px;
+}
+p{
+    display: flex;
+    font-size: 12px;
+}
+
+span{
+    color: #fb2056;
+   
+    font-size: 15px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav .toggle-btn{
+    
+    cursor: pointer;
+   
+    display: none;
+}
+.watersport{
+    padding-left: 30px;
+}
+.adventure{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+    text-transform: bolder;
+    font-weight: bold;
+}
+
+.showPicsContainer{
+    display: flex;
+    
+    align-items: center;
+    justify-content:center;
+    padding: 50px;
+}
+.sport1{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.imageContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.theEnd{
+    height: 100px;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.copyright{
+    color: #f5f5f5;
+    font-size: 10px;
+    font-family: "noto", sans-serif;
+    text-align: center;
+}
+.dropdonwMenu ul{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.menuList {
+    display: flex;
+}
+@media ( max-width:1024px){
+    ul { display: none;}
+    .endContainer{ margin: 30px;
+       }
+      
+    
+       p{
+        text-align: center;
+       }
+       .imageContainer{
+        flex-wrap: wrap;
+       }
+        img{ width: 50%;}
+        nav .toggle-btn{
+            display: block;
+            position: absolute;
+            right: 94px;
+        }
+        .dropdonwMenu{
+            /* display: block;
+            position: fixed;
+            right: 6rem;
+            height: 24rem;
+            width: 250px; */
+        }
+        .navBar-links_logo img{
+            width: 120px;
+            display: block;
+            position: absolute;
+            left: -100px;
+            
+        }
+        .navBar-links_logo{
+            position: absolute;
+            
+
+        }
+}
