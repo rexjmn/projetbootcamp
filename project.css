@@ -187,12 +187,45 @@ nav .toggle-btn{
     font-family: "noto", sans-serif;
     text-align: center;
 }
-.dropdonwMenu ul{
+.dropdonwMenu{
+    display: none;
+    position: absolute;
+    right:2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background-color: rgba(255,255,255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   
+}
+.dropdonwMenu li{
     padding: 0.7rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.dropdonwMenu.open{
+    height: 300px;
+}
+.dropdonwMenu button{
+    font-family: "noto", sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+    border: #fb2056;
+    height: 30px;
+    width: 115px;
+    font-weight: bold;
+    color: white;
+    background-color: #fb2056;
+    cursor: pointer;
 }
 .menuList {
     display: flex;
@@ -214,14 +247,9 @@ nav .toggle-btn{
             display: block;
             position: absolute;
             right: 94px;
+            top: 50px;
         }
-        .dropdonwMenu{
-            /* display: block;
-            position: fixed;
-            right: 6rem;
-            height: 24rem;
-            width: 250px; */
-        }
+        
         .navBar-links_logo img{
             width: 120px;
             display: block;
@@ -234,4 +262,37 @@ nav .toggle-btn{
             
 
         }
+        .dropdonwMenu {
+            display: block;
+        }
 }
+
+@media ( max-width: 768px ){
+    .navBar-links_logo img{
+        height: 25px;
+        width: 90px;
+        position: relative;
+        right: 60px;
+    }
+    .textAbout{
+
+        font-size: 20px;
+        padding-top: 100px;
+    }
+    
+    }
+
+    @media ( max-width: 480px){
+        .navBar-links_logo img{
+            height: 25px;
+            width: 90px;
+            position: relative;
+            right: 100px;
+        }
+        nav .toggle-btn{
+            display: block;
+            position: absolute;
+            right: 30px;
+            top: 39px;
+        }
+    }
