@@ -147,12 +147,17 @@ header{
 
 .box{
     box-shadow:17px 10px 10px rgba(0, 0, 0, 0.5);
-    height: 200px;
+    height: 187px;
     width: 300px;
     object-fit: contain;
     padding: 0%;
 }
-
+.eventsImg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .everestC{
     text-align: center;
     font-size: 25px;
@@ -278,6 +283,12 @@ nav .toggle-btn{
         font-size: 20px;
         padding-top: 150px;
 
+    }
+    .eventsImg2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
