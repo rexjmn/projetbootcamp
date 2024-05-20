@@ -80,7 +80,7 @@ header{
 }
 
 .backgrounimg{
-    background-image: url(/src/contact.jpg);
+    background-image: url(src/contact.jpg);
     background-attachment: fixed;
     background-position: center bottom;
     background-repeat: no-repeat;
