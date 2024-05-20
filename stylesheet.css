@@ -93,7 +93,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    padding-top: 300px;
     color: white;
     font-size: 24px;
 }
@@ -273,4 +273,83 @@ nav .toggle-btn{
         right: 94px;
         top: 50px;
     }
+    .textAbout{
+
+        font-size: 20px;
+        padding-top: 300px;
+
+    }
+}
+
+
+@media ( max-width: 768px ){
+    .navBar-links_logo img{
+        height: 25px;
+        width: 90px;
+        position: relative;
+        right: 60px;
+    }
+    .textAbout{
+
+        font-size: 20px;
+        padding-top: 300px;
+
+    }
+    .textmain{
+        padding: 20px;
+    }
+    .titleETW{
+        padding: 20px;
+    }
+    .upcomingContainer{
+        flex-direction: column;
+    }
+    .upcommingIMG{
+        flex-direction: column;
+    }
+    .eventsImg2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+
+@media ( max-width: 480px){
+    .navBar-links_logo img{
+        height: 25px;
+        width: 90px;
+        position: relative;
+        right: 100px;
+    }
+    nav .toggle-btn{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 39px;
+    }
+    .textmain{
+        padding: 20px;
+    }
+    .titleETW{
+        padding: 20px;
+    }
+    .upcomingContainer{
+        flex-direction: column;
+    }
+    .upcommingIMG{
+        flex-direction: column;
+    }
+    .upcoming{
+        padding-top: 50px;
+    }
+    .outdoor img {
+        width: 100%;
+    }
+    .exploreTheWorld{
+        background-position: unset;
+    }
+
+
 }
