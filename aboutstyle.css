@@ -99,6 +99,7 @@ header{
     justify-content: center;
     color: white;
     font-size: 25px;
+    padding-top: 100px;
 }
 article{
   
@@ -124,6 +125,7 @@ article{
     box-shadow:17px 10px 10px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
+    height: 300px;
 }
 .line{
     width: 100px;
@@ -201,6 +203,9 @@ nav .toggle-btn{
             position: absolute;        background-position-x: 50%;
 
      }
+     .our_image img{
+        width: 100%;
+    }
 }
 @media ( max-width:768px){
     ul { display: none;}
@@ -211,11 +216,9 @@ nav .toggle-btn{
     section{ margin: 30px;}
     article{ margin: 30px;}
     .our_image img{
-        width: 60%;
+    width: 400px;
     }
-    .bacground-position: {
-
-    }
+   
     nav .toggle-btn{
         display: block;
         position: absolute;

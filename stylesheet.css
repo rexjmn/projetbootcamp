@@ -93,7 +93,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 300px;
+    padding-top: 150px;
     color: white;
     font-size: 24px;
 }
@@ -276,7 +276,7 @@ nav .toggle-btn{
     .textAbout{
 
         font-size: 20px;
-        padding-top: 300px;
+        padding-top: 150px;
 
     }
 }
