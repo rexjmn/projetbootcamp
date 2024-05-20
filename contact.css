@@ -17,6 +17,12 @@ align-items: center;
 
 
 }
+nav .toggle-btn{
+    
+    cursor: pointer;
+   
+    display: none;
+}
 a{
     text-decoration: none;
     font-family: "noto",sans-serif;
@@ -81,7 +87,7 @@ header{
 
 .backgrounimg{
     background-image: url(src/contact.jpg);
-    background-attachment: fixed;
+   
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,12 +98,7 @@ header{
   background-blend-mode: color;
   
 }
-.filter{
-   
-    background-color: rgba(0, 0, 0, 0.514);
-    height: 500px;
-    width: 100%;
-}
+
 .textAbout{
     display: flex;
     align-items: center;
@@ -150,6 +151,8 @@ h2{
 }
 .mainContainer{
 padding: 30px;
+display: flex;
+justify-content: center;
 }
 
 .contactcontainer{
@@ -181,3 +184,74 @@ padding: 30px;
     font-family: "noto", sans-serif;
     text-align: center;
 }
+
+@media ( max-width:1024px){
+    ul { display: none;}
+    .backgrounimg{
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    }
+    nav .toggle-btn{
+    display: block;
+    position: absolute;
+    right: 94px;
+    top: 50px;
+    }
+    .navBar-links_logo img{
+    width: 180px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 50px;
+    }
+    .contactcontainer{
+    flex-direction: column;
+    }
+    }
+    
+    
+    
+    
+    
+    
+    @media(max-width:768){
+    .contactcontainer{
+    flex-direction: column;
+    }
+    .navBar-links_logo img{
+    width: 120px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    left: 50px;
+    }
+   
+    }
+    
+    
+    
+    @media ( max-width:480px){
+    input[type=text], select, textarea{
+    width: 280px;
+    }
+    .contactinf{
+    padding-left: 0;
+    padding-top: 40px;
+    }
+    .navBar-links_logo img{
+    width: 80px;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 20px;}
+    nav .toggle-btn{
+    display: block;
+    position: absolute;
+    right: 36px;
+    top: 17px;}
+    H1{
+        font-size: 30px;
+    }
+    }
