@@ -140,7 +140,6 @@ header{
     justify-content: center;
     color: white;
     font-size: 25px;
-    padding-top: 100px;
 }
 article{
   
@@ -217,10 +216,7 @@ nav .toggle-btn{
 
 @media ( max-width:1024px){
     ul { display: none;}
-    /* .main-text{ flex-direction: column;}
-    .main-text1{
-        flex-direction: column;
-    } */
+    
     section{ margin: 30px;}
     article{ margin: 30px;}
     .our_image img{
@@ -268,6 +264,10 @@ nav .toggle-btn{
         position: absolute;
         right: 70px;
         top: 33px;
+    }
+    .textAbout{
+        margin-top: 50px;
+        padding-top: 0;
     }
 }
 @media ( max-width:480px){
