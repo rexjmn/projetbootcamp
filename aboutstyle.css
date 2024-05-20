@@ -43,16 +43,16 @@ a{
 nav{
     width: 600px;
     height: 100;
-    
+    margin-right: 100px;
+    margin-top: 30px;
     font-size: 10px;
-    
-    
    
     
 }
 
 .navBar-links_container{
     height: 50px;
+   
 }
 button{
     font-family: "noto", sans-serif;
